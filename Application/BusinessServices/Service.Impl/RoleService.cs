@@ -25,12 +25,12 @@ namespace Application.BusinessServices
 
         public async Task<int> InsertAsync(RoleDTO value)
         {
-            return await _repository.InsertAsync(_mapper.Map<User>(value));
+            return await _repository.InsertAsync(_mapper.Map<Role>(value));
         }
 
         public async Task<int> UpdateAsync(RoleDTO value)
         {
-            return await _repository.UpdateAsync(_mapper.Map<User>(value));
+            return await _repository.UpdateAsync(_mapper.Map<Role>(value));
         }
 
 
