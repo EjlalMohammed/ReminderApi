@@ -1,6 +1,4 @@
-﻿
-
-using Domain.Entity;
+﻿using Domain.Entity;
 
 namespace Application.BusinessServices
 {
