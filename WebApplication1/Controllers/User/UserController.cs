@@ -6,7 +6,7 @@ using ReservePro.Management.Api.Controllers;
 
 namespace ReservePro.Managemant.Api
 {
-    public class RoleController(IUserService service, ILogger<BaseController> _logger) : BaseController(_logger)
+    public class UserController(IUserService service, ILogger<BaseController> _logger) : BaseController(_logger)
     {
         private readonly IUserService _service = service;
         [HttpGet]
